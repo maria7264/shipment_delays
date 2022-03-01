@@ -1,2 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Noto+Serif+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Noto+Serif+Display:wght@600&display=swap');
+
+  body {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  h2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 45px;
+  }
+  h4 {
+    font-size: 40px;
+  }
+  h5 {
+    font-size: 35px;
+  }
+  h6 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+  }
+  body{
+      background-color: rgb(232, 248, 255)
+  }
 
 
+  body {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  h1 {
+    color: rgb(192, 69, 69);
+    font-size: 60px;
+    font-weight: 700px;
+  }
+
+
+/*Nav bar */
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(190, 190, 190);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(235, 149, 149);
+  }
+
+
+
+
+  footer{
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+      background-color: #80bfff;
+      color: #fff;
+  }
