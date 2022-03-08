@@ -7,12 +7,17 @@
   h2 {
     color: rgb(0, 0, 0);
     font-size: 50px;
-  }
+    
+}
+    
   h3 {
     font-size: 45px;
   }
   h4 {
     font-size: 40px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  
   }
   h5 {
     font-size: 35px;
@@ -35,6 +40,8 @@
     color: #094067;
     font-size: 60px;
     font-weight: 700px;
+    margin-top: 10px;
+    margin-bottom: 3px;
   }
 
 
@@ -43,8 +50,8 @@
 
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 1px;
     overflow: hidden;
     background-color: rgb(190, 190, 190);
   }
@@ -57,9 +64,10 @@
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 8px;
+    
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
 
   }
   
@@ -72,7 +80,7 @@
 
 
   footer{
-      display: flex;
+      display:flow-root;
       justify-content: center;
       padding: 5px;
       background-color: #90b4ce;
