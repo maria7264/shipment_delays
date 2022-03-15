@@ -27,6 +27,7 @@
   }
   p {
     font-size: 20px;
+  
   }
   body{
       background-color: #fffffe
@@ -95,3 +96,6 @@
       border:1px solid black ; 
       margin:2px
     }
+  input{ font-family: 'Cormorant Garamond', serif;
+
+  }
