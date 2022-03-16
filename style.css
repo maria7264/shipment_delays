@@ -46,9 +46,7 @@
   }
 
 
-/*Nav bar */
-
-
+/*Navigation bar */
   ul {
     list-style-type: none;
     margin: 0px;
@@ -72,13 +70,10 @@
 
   }
   
-  /* Change the link color to #111 (black) on hover */
+  /* Over elements of nav bar*/
   li a:hover {
     background-color: #90b4ce;
   }
-
-
-
 
   footer{
       display:flow-root;
@@ -99,3 +94,13 @@
   input{ font-family: 'Cormorant Garamond', serif;
 
   }
+
+input[ type = submit] {
+  background-color: #90b4ce;
+  border-color:#90b4ce;
+  border-radius: 10px;
+}
+input[ type = submit]:active {
+  background-color: #1c91f0;
+  padding:12px;
+}

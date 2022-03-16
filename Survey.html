@@ -27,78 +27,213 @@
     <!--comment syntax-->
     <h1> <strong>Shipment Delays Causes </strong></h1>
     <iframe frameborder="0" src="navigation.html" width = "780" height = "80"></iframe>
-      <h2> Survey Time </h2>
+      <h3 style = "color:black; text-align: left;"> Contact Information </h3>
 
       <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post"> 
         <label>Email: </label>
         <br>
-        <input name ="email"> 
+        <input name ="Email"> 
         <br>    
 
         <label>Name: </label>
         <br>
-        <input name ="name"> 
+        <input name ="Name"> 
         <br>    
 
         <label>Phone Number: </label>
         <br>
-        <input name ="phoneNumber">
+        <input name ="Phone Number">
         <br> 
         <label>Home Address: </label>
         <br>
-        <input anem ="address">
+        <input name ="Address">
         <br> 
         <label>Zip Code: </label>
         <br>
-        <input anem ="zipCode">
+        <input name ="Zip Code">
         <br> 
         <br> 
-
-
-
-
-
-
 
         <label>Preferred contact method: </label> 
         <br> 
-        <input type="checkbox" id="bestway" name="bestway"
+        <input type="checkbox" id="Email" name="Email"
         checked>
-        <label for="bestway">Email</label>
+        <label for="Email">Email</label>
         <br>
-        <input type="checkbox" id="bestway1" name="bestway1"
+        <input type="checkbox" id="Phone Number" name="Phone Number"
         checked>
-        <label for="bestway1">Phone Number</label>
+        <label for="Phone Number">Phone Number</label>
         <br>
-        <input type="checkbox" id="bestway2" name="bestway2"
+        <input type="checkbox" id="Mail" name="Mail"
         checked>
-        <label for="bestway2">Mail</label>
+        <label for="Mail">Mail</label>
         <br> 
         <br> 
         <input type="submit" style="height:30px; width:60px; font-size:16px;" >
-
-
         <input name="send-to" value="myagual@brooklynsteamcenter.org" hidden>
-
+        <br> <br> 
 
       </form>
-      <br> <br><br> <br> <br> <br> 
+
+
+
+      <br> <br> <br> 
+
+      <h3 style = "color:black; text-align: left;"> Survey Time </h3>
+      <img style="float: left;" src="hyou.jpg" alt="Survey Banner" width = "800" height = "400"> 
+
+
+
+      
+
+
+      <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post"> 
+       
+     <br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+        <label style="font-size:20px; font-weight: bold;"> This survey will rate in a scale of 1 - 5. 
+            <br> <br> 1 Strongly Disagree || 2 Disagree || 3 Neutral || 4 Agree || 5 Strongly Agree </label> 
+        <br> 
+        <br> 
+        
+        <p>Question 1: Due to Covid shipments have gotten worst?</p>
+        
+        <input type="radio" id = "1" name = "Question 1" value = "Strongly Disagree" >
+        <label for = "Stronly Disagree"> 1 </label> 
+        <input type="radio" id = "2" name = "Question 1" value = "Disagree" >
+        <label for = "Disagree"> 2 </label> 
+        <input type="radio" id = "3" name = "Question 1" value = "Neutral" >
+        <label for = "Neutral"> 3 </label> 
+        <input type="radio" id = "4" name = "Question 1" value = "Agree" >
+        <label for = "Agree"> 4 </label> 
+        <input type="radio" id = "5" name = "Question 1" value = "Stronly Agree" >
+        <label for = "Stronly Agree"> 5 </label> 
+
+        <p>Question 2: Shipments are getting better as covid measurements are lifting up</p>
+
+        <input type="radio" id = "6" name = "Question 2" value = "Strongly Disagree" >
+        <label for = "Stronly Disagree"> 1 </label> 
+        <input type="radio" id = "7" name = "Question 2" value = "Disagree" >
+        <label for = "Disagree"> 2 </label> 
+        <input type="radio" id = "8" name = "Question 2" value = "Neutral" >
+        <label for = "Neutral"> 3 </label> 
+        <input type="radio" id = "9" name = "Question 2" value = "Agree" >
+        <label for = "Agree"> 4 </label> 
+        <input type="radio" id = "10" name = "Question 2" value = "Stronly Agree" >
+        <label for = "Stronly Agree"> 5 </label> 
+
+        <p>Question 3: Fedex has stay in contact regarding delays in shipments</p>
+
+        <input type="radio" id = "11" name = "Question 3" value = "Strongly Disagree" >
+        <label for = "Stronly Disagree"> 1 </label> 
+        <input type="radio" id = "12" name = "Question 3" value = "Disagree" >
+        <label for = "Disagree"> 2 </label> 
+        <input type="radio" id = "13" name = "Question 3" value = "Neutral" >
+        <label for = "Neutral"> 3 </label> 
+        <input type="radio" id = "14" name = "Question 3" value = "Agree" >
+        <label for = "Agree"> 4 </label> 
+        <input type="radio" id = "15" name = "Question 3" value = "Stronly Agree" >
+        <label for = "Stronly Agree"> 5 </label> 
+
+        <p>Question 4: UPS has stay in contact regarding delays in shipments </p>
+
+        <input type="radio" id = "16" name = "Question 4" value = "Strongly Disagree" >
+        <label for = "Stronly Disagree"> 1 </label> 
+        <input type="radio" id = "17" name = "Question 4" value = "Disagree" >
+        <label for = "Disagree"> 2 </label> 
+        <input type="radio" id = "18" name = "Question 4" value = "Neutral" >
+        <label for = "Neutral"> 3 </label> 
+        <input type="radio" id = "19" name = "Question 4" value = "Agree" >
+        <label for = "Agree"> 4 </label> 
+        <input type="radio" id = "20" name = "Question 4" value = "Stronly Agree" >
+        <label for = "Stronly Agree"> 5 </label> 
+
+       
+
+        <p>Question 5: DHL has stay in contact regarding delays in shipments</p>
+
+        <input type="radio" id = "21" name = "Question 5" value = "Strongly Disagree" >
+        <label for = "Stronly Disagree"> 1 </label> 
+        <input type="radio" id = "22" name = "Question 5" value = "Disagree" >
+        <label for = "Disagree"> 2 </label> 
+        <input type="radio" id = "23" name = "Question 5" value = "Neutral" >
+        <label for = "Neutral"> 3 </label> 
+        <input type="radio" id = "24" name = "Question 5" value = "Agree" >
+        <label for = "Agree"> 4 </label> 
+        <input type="radio" id = "25" name = "Question 5" value = "Stronly Agree" >
+        <label for = "Stronly Agree"> 5 </label> 
+
+        <p>Question 6: Cargo shipments are good for the environment </p>
+
+        <input type="radio" id = "26" name = "Question 6" value = "Strongly Disagree" >
+        <label for = "Stronly Disagree"> 1 </label> 
+        <input type="radio" id = "27" name = "Question 6" value = "Disagree" >
+        <label for = "Disagree"> 2 </label> 
+        <input type="radio" id = "28" name = "Question 6" value = "Neutral" >
+        <label for = "Neutral"> 3 </label> 
+        <input type="radio" id = "29" name = "Question 6" value = "Agree" >
+        <label for = "Agree"> 4 </label> 
+        <input type="radio" id = "30" name = "Question 6" value = "Stronly Agree" >
+        <label for = "Stronly Agree"> 5 </label> 
+
+        <p>Question 7: Shipment rates are affected by inflation and increase of gas prices </p>
+
+        <input type="radio" id = "31" name = "Question 7" value = "Strongly Disagree" >
+        <label for = "Stronly Disagree"> 1 </label> 
+        <input type="radio" id = "32" name = "Question 7" value = "Disagree" >
+        <label for = "Disagree"> 2 </label> 
+        <input type="radio" id = "33" name = "Question 7" value = "Neutral" >
+        <label for = "Neutral"> 3 </label> 
+        <input type="radio" id = "34" name = "Question 7" value = "Agree" >
+        <label for = "Agree"> 4 </label> 
+        <input type="radio" id = "35" name = "Question 7" value = "Stronly Agree" >
+        <label for = "Stronly Agree"> 5 </label> 
+
+        <p>Question 8: Lines are shorter at carrier establisments</p>
+
+        <input type="radio" id = "36" name = "Question 8" value = "Strongly Disagree" >
+        <label for = "Stronly Disagree"> 1 </label> 
+        <input type="radio" id = "37" name = "Question 8" value = "Disagree" >
+        <label for = "Disagree"> 2 </label> 
+        <input type="radio" id = "38" name = "Question 8" value = "Neutral" >
+        <label for = "Neutral"> 3 </label> 
+        <input type="radio" id = "39" name = "Question 8" value = "Agree" >
+        <label for = "Agree"> 4 </label> 
+        <input type="radio" id = "40" name = "Question 8" value = "Stronly Agree" >
+        <label for = "Stronly Agree"> 5 </label> 
+
+    
+
+        <br>
+       
+        <br> 
+        <br> 
+        <input type="submit" style="height:30px; width:60px; font-size:16px;" >
+        <input name="send-to" value="myagual@brooklynsteamcenter.org" hidden>
+        <br> <br> 
+
+      </form>
+
+
+
+
+      <br><br> <br><br> <br> <br><br>
+      
+      <br> <br><br> 
+      
 
 
 
 
 
      
-      <a style = "float:left;" href="https://docs.google.com/forms/d/e/1FAIpQLSfCs8RPT5QmfCvTzJVMQkaOgXwq3zAnGB0GIC3ukzUblqtJbQ/viewform"><h3> Visit our survey!</h3></a> 
       <br> <br> <br> <br>
       
-      <img style="float: left;" src="hyou.jpg" alt="Survey Banner" width = "800" height = "400"> 
-       
-      <br><br> <br><br> <br> <br><br>
       
-
+       
+     
       <br> <br><br> <br> <br><br> <br> 
 
+      <br> <br><br> <br> <br><br> <br> 
       <br> <br><br> <br> <br><br> <br> 
       
        
