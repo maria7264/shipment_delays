@@ -6,31 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shipment Delays</title>
     <link rel="stylesheet" href="style.css">
+    <link rel = "icon" type = "png" href = "logo.png" />
 </head>
 <style>
   a:hover{
   text-decoration: underline;
+  }
+ 
+  input[ type = submit] {
+  background-color: #f0f0f0;
+  border-color:#90b4ce;
+  border-radius: 10px;
+  }
+  input[ type = submit]:active {
+  background-color: #85c6f5;
+        
   }
 </style>
 <body>
     <h1> Shipment Delays in 2019 </h1>
     <!--comment syntax-->
 
-    <iframe frameborder="0" src="navigation.html" width = "780" height = "80"></iframe>
+    <iframe frameborder="0" src="navigation.html" width = "756" height = "80"></iframe>
 
 
 
 <h4>How were shipments before the pandemic?</h4>
 
 
-<img src="CargoB.jpg" alt="front" width = "700" height = "300"> 
+<img src="CargoB.jpg" alt="front" width = "750" height = "300"> 
 
-<p>Our lives were completely different before 2020. No mask, quarantined, social distancing and more.</p>
-
-
-
-<br>
-<p> In December, retail deals succumbed to the third consecutive month and cafés shed almost 500,000 positions. In any case, Americans keep on gobbling up hardware and other locally established merchandise and their bosses are as yet purchasing gear to reinforce their remote work arrangements, Williamson says. Organizations, in the interim, are recharging their inventories in the wake of drawing them down considerably in the beginning of the pandemic. Numerous huge retailers, for example, Walmart are paying charges for makers to speed conveyances by shipping items straightforwardly to stores rather than dissemination focuses. The stores can likewise satisfy neighborhood internet business arranges all the more quickly. The arrangements could proclaim another conveyance model that stretches out past the pandemic, Welch says. More modest retailers that didn't pay makers when their shipments were deferred could battle to acquire items.</p>
+<p>Our lives were completely different before 2020. No masks, quarantines, social distancing and much more. In December, retail deals succumbed to the third consecutive month and cafés shed almost 500,000 positions. In any case, Americans keep on gobbling up hardware and other locally established merchandise and their bosses are as yet purchasing gear to reinforce their remote work arrangements, Williamson says. Organizations, in the interim, are recharging their inventories in the wake of drawing them down considerably at the beginning of the pandemic. Numerous huge retailers, for example, Walmart are paying charges for makers to speed conveyances by shipping items straightforwardly to stores rather than dissemination focuses. The stores can likewise satisfy neighborhood internet business arranges all the more quickly. The arrangements could proclaim another conveyance model that stretches out past the pandemic. More modest retailers that didn't pay makers when their shipments were deferred could battle to acquire items.</p>
 
 <br> 
 <br> 
@@ -39,14 +45,24 @@
 <hr>  
 
 <footer>
-  <p>Maria Yagual</p>
-  
-  <p>
-      <a href="mailto:myagual@brooklynsteamcenter.org">myagual@brooklynsteamcenter.org</a></p>
-      <h6 style="margin-bottom: 2px;" > Sign Up </h6> 
-      <form> 
-        <table><tr> <td> First Name: </td> <td> <input type= "text" name="text"> </td> </tr> <tr></tr> <tr> <td> Last Name: </td> <td> <input type="text" name="text"> </td> </tr> <tr> <td> Email Address: </td> <td> <input type="email" email="text"> </td> </tr> </table> 
-      </form> 
+  <p style = "margin-bottom:3px; color:#094067; font-weight: bold;" > || Maria Yagual ||  <a  href="mailto:myagual@brooklynsteamcenter.org">myagual@brooklynsteamcenter.org || </a> </p>
+      <br> 
+  <h6 style="margin-bottom: 2px; margin-top: 3px; font-weight: lighter; "> Monthly Newsletter Sign Up </h6> 
+      <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post"> 
+        <label>Email: </label>
+        <br>
+        <input name ="Email"> 
+        <br>    
+
+        <label>Name: </label>
+        <br>
+        <input name ="Name"> 
+        <br>    
+        <input type="submit" style="height:30px; width:60px; font-size:16px;" >
+        <input name="send-to" value="myagual@brooklynsteamcenter.org" hidden>
+        <br> <br> 
+
+      </form>
 
 </footer>
 

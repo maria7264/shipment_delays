@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey</title>
     <link rel="stylesheet" href="style.css">
+    <link rel = "icon" type = "png" href = "logo.png" />
 
 </head>
 <style> 
@@ -19,6 +20,8 @@
         text-decoration: underline;
         }
 
+  
+
 
 </style>
 <body>
@@ -27,8 +30,10 @@
     <!--comment syntax-->
     <h1> <strong>Shipment Delays Causes </strong></h1>
     <iframe frameborder="0" src="navigation.html" width = "780" height = "80"></iframe>
-      <h3 style = "color:black; text-align: left;"> Contact Information </h3>
-
+    <h3 class = "surveyText"> Contact Information </h3>
+    <img src="contact.jpg" alt="front" width = "800" height = "400" style = " margin-bottom: 5px;"> 
+     
+        
       <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post"> 
         <label>Email: </label>
         <br>
@@ -77,12 +82,10 @@
 
 
 
-      <br> <br> <br> 
+      <br> 
 
-      <h3 style = "color:black; text-align: left;"> Survey Time </h3>
-      <img style="float: left;" src="hyou.jpg" alt="Survey Banner" width = "800" height = "400"> 
-
-
+      <h3 class = "surveyText"> Survey Time </h3>
+      <img class="sImage" src="hyou.jpg" alt="Survey Banner" width = "800" height = "400"> 
 
       
 
@@ -207,54 +210,35 @@
        
         <br> 
         <br> 
-        <input type="submit" style="height:30px; width:60px; font-size:16px;" >
+        <input type="submit" class="input1" >
         <input name="send-to" value="myagual@brooklynsteamcenter.org" hidden>
         <br> <br> 
 
       </form>
-
-
-
-
-      <br><br> <br><br> <br> <br><br>
-      
-      <br> <br><br> 
-      
-
-
-
-
-
-     
-      <br> <br> <br> <br>
-      
-      
-       
-     
-      <br> <br><br> <br> <br><br> <br> 
-
-      <br> <br><br> <br> <br><br> <br> 
-      <br> <br><br> <br> <br><br> <br> 
-      
-       
-
-
-
+      <br><br>
       <hr>
-
-
- 
       </body>
 
-
-<footer>
-        <p>Maria Yagual </p>
-        <p>
-            <a href="mailto:myagual@brooklynsteamcenter.org">myagual@brooklynsteamcenter.org</a></p>
-            <h6> Sign Up </h6> 
-            <form> 
-                <table><tr> <td> First Name: </td> <td> <input type="text" name="text"> </td> </tr> <tr></tr> <tr> <td> Last Name: </td> <td> <input type= "text" name="text"> </td> </tr> <tr> <td> Email Address: </td> <td> <input type= "email" email= "text"> </td> </tr> </table> 
-                </form> 
-  </footer>
+      <footer>
+        <p style = "margin-bottom:3px; color:#094067; font-weight: bold;" > || Maria Yagual ||  <a  href="mailto:myagual@brooklynsteamcenter.org">myagual@brooklynsteamcenter.org || </a> </p>
+            <br> 
+        <h6 style="margin-bottom: 2px; margin-top: 3px; font-weight: lighter; "> Monthly Newsletter Sign Up </h6> 
+            <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post"> 
+              <label>Email: </label>
+              <br>
+              <input name ="Email"> 
+              <br>    
+      
+              <label>Name: </label>
+              <br>
+              <input name ="Name"> 
+              <br>    
+              <input type="submit" style="height:30px; width:60px; font-size:16px;" >
+              <input name="send-to" value="myagual@brooklynsteamcenter.org" hidden>
+              <br> <br> 
+      
+            </form>
+  
+      </footer>
 </html>
 

@@ -49,7 +49,7 @@
 /*Navigation bar */
   ul {
     list-style-type: none;
-    margin: 0px;
+    margin-left: none;
     padding: 1px;
     overflow: hidden;
     background-color: rgb(190, 190, 190);
@@ -64,6 +64,7 @@
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 8px;
+    
     
     text-decoration: none;
     font-size: 25px;
@@ -102,5 +103,35 @@ input[ type = submit] {
 }
 input[ type = submit]:active {
   background-color: #1c91f0;
-  padding:12px;
+ 
 }
+
+.solutionText {
+  font-size: large;
+}
+
+
+.marginFooter {
+  margin-bottom: 2px;
+
+}
+.surveyText{
+  color:black; 
+  text-align: left;
+
+}
+.input1 {
+  height:30px;
+  width:60px; 
+  font-size:16px;
+}
+.sImage{
+  float: left;
+  
+}
+
+
+
+
+
+

@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel = "icon" type = "png" href = "logo.png" />
     <title>Shipment Delays</title>
     <style>
         a:hover{
         text-decoration: underline;
+        }
+        input[ type = submit] {
+        background-color: #f0f0f0;
+        border-color:#90b4ce;
+        border-radius: 10px;
+        }
+        input[ type = submit]:active {
+        background-color: #85c6f5;
+        
         }
       </style>
 </head>
@@ -60,7 +70,7 @@
     <br><br><br><br>
 
     <h4>Dealing with late shipments</h4>
-    <ol style = "font-size: large;" >
+    <ol class= "solutionText" >
         <li>Communicate with the shipping company</li>
         <br>
         <li>Order locally or pickup</li>
@@ -69,14 +79,28 @@
     <br><br><br><br>
     <hr>
     <footer>
-      <p>Maria Yagual </p>
-      <p>
-          <a href="mailto:myagual@brooklynsteamcenter.org">myagual@brooklynsteamcenter.org</a></p>
-          <h6 style="margin-bottom: 2px;"> Sign Up </h6> 
-          <form> 
-              <table><tr> <td> First Name: </td> <td> <input type= "text" name="text"> </td> </tr> <tr></tr> <tr> <td> Last Name: </td> <td> <input type= "text" name= "text"> </td> </tr> <tr> <td> Email Address: </td> <td> <input type="email" email="text"> </td> </tr> </table> 
-              </form> 
+        <p style = "margin-bottom:3px; color:#094067; font-weight: bold;" > || Maria Yagual ||  <a  href="mailto:myagual@brooklynsteamcenter.org">myagual@brooklynsteamcenter.org || </a> </p>
+            <br> 
+        <h6 style="margin-bottom: 2px; margin-top: 3px; font-weight: lighter; "> Monthly Newsletter Sign Up </h6> 
+            <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post"> 
+              <label>Email: </label>
+              <br>
+              <input name ="Email"> 
+              <br>    
+      
+              <label>Name: </label>
+              <br>
+              <input name ="Name"> 
+              <br>    
+              <input type="submit" style="height:30px; width:60px; font-size:16px;" >
+              <input name="send-to" value="myagual@brooklynsteamcenter.org" hidden>
+              <br> <br> 
+      
+            </form>
+  
       </footer>
     
+
+ 
 </body>
 </html>

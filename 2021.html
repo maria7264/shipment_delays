@@ -6,36 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shipment Delays</title>
     <link rel="stylesheet" href="style.css">
+    <link rel = "icon" type = "png" href = "logo.png" />
 </head>
 <style>
     a:hover{
     text-decoration: underline;
     }
+    input[ type = submit] {
+    background-color: #f0f0f0;
+    border-color:#90b4ce;
+    border-radius: 10px;
+    }
+    input[ type = submit]:active {
+    background-color: #85c6f5;
+        
+    } 
   </style>
 <body>
  
     <h1> Shipment Delays in 2021 </h1>
     <!--comment syntax-->
 
-    <iframe frameborder="0" src="navigation.html" width = "780" height = "80"></iframe>
+    <iframe frameborder="0" src="navigation.html" width = "756" height = "80"></iframe>
    
     <h4>How have shipment delays affected 2020?</h4>
     
-    <img src="Canal.jpeg" alt="front" width = "700" height = "300"> 
+    <img src="Canal.jpeg" alt="front" width = "756" height = "300"> 
     <p>The supply network, meanwhile, is clogged. Last spring, shipments from China dwindled to a dribble. They’re snapping back after that country was among the first to recover from the health crisis. In August and September, imports from Asia to the ports of Los Angeles and Long Beach, California, increased 22% from a year earlier, according to Supply Chain Management Review. But containers are piling up at the ports, which don’t have the workers to store and move them, the trade publication says. The congested ports have increased the time it takes truckers to drop off or pick up containers.  </p>
     
+ 
     
-    <br> 
-    
-    <hr>
-    <footer>
-      <p>Maria Yagual </p>
-      <p>
-          <a href="mailto:myagual@brooklynsteamcenter.org">myagual@brooklynsteamcenter.org</a></p>
-          <h6 style="margin-bottom: 2px;" > Sign Up </h6> 
-          <form> 
-              <table><tr> <td> First Name: </td> <td> <input type= "text" name="text"> </td> </tr> <tr></tr> <tr> <td> Last Name: </td> <td> <input type= "text" name="text"> </td> </tr> <tr> <td> Email Address: </td> <td> <input type= "email" email="text"> </td> </tr> </table> 
-              </form> 
-      </footer>
+    <h4>2021 Cargo Situation</h4>
+   <iframe width="700" height="400" src="https://www.youtube.com/embed/E7t5yj1rScI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+   <br> 
+   <br> 
+   <hr>
+   <footer>
+    <p style = "margin-bottom:3px; color:#094067; font-weight: bold;" > || Maria Yagual ||  <a  href="mailto:myagual@brooklynsteamcenter.org">myagual@brooklynsteamcenter.org || </a> </p>
+        <br> 
+    <h6 style="margin-bottom: 2px; margin-top: 3px; font-weight: lighter; "> Monthly Newsletter Sign Up </h6> 
+        <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post"> 
+          <label>Email: </label>
+          <br>
+          <input name ="Email"> 
+          <br>    
+  
+          <label>Name: </label>
+          <br>
+          <input name ="Name"> 
+          <br>    
+          <input type="submit" style="height:30px; width:60px; font-size:16px;" >
+          <input name="send-to" value="myagual@brooklynsteamcenter.org" hidden>
+          <br> <br> 
+  
+        </form>
+
+  </footer>
 </body>
 </html>
