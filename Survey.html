@@ -31,8 +31,12 @@
     <h1> <strong>Shipment Delays Causes </strong></h1>
     <iframe frameborder="0" src="navigation.html" width = "780" height = "80"></iframe>
     <h3 class = "surveyText"> Contact Information </h3>
-    <img src="contact.jpg" alt="front" width = "800" height = "400" style = " margin-bottom: 5px;"> 
-     
+    
+    
+    <picture>
+      <source srcset="contact.jpeg" media="(min-width:767px)"/>
+      <img src="contact.jepg" alt="front" width = "800" height = "400" style = "margin-bottom: 5px;"> 
+    </picture>
         
       <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post"> 
         <label>Email: </label>
