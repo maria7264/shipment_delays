@@ -130,6 +130,14 @@ input[ type = submit]:active {
   
 }
 
+.defaultSzImg{
+  width:756px;
+  height:350px;
+}
 
-
-
+@media screen and (max-width:468px) {
+  .defaultSzImg{
+    width:200px;
+    height:150px;
+  }
+}
