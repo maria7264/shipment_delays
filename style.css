@@ -134,8 +134,6 @@ input[ type = submit]:active {
   width:750px;
   height:350px;
 }
-
-
 #sizePic19{
   width:750px;
   height:350px;
@@ -160,26 +158,42 @@ input[ type = submit]:active {
   width:750px;
   height:350px;
 }
+#resourcePic1{
+  width:750px;
+  height:350px;
+}
 
 @media screen and (max-width:400px) {
   #sizePic {
-    width:350px;
+    width:370px;
     height:200px;
   }
   #sizePic19 {
-    width:350px;
+    width:370px;
     height:200px;
   }
   #sizePic20 {
-    width:350px;
+    width:370px;
     height:200px;
   }
   #sizePic21 {
-    width:350px;
+    width:370px;
     height:200px;
   }
   #solutionPic {
-    width:350px;
+    width:370px;
+    height:200px;
+  }
+  #surveyPic1{
+    width:370px;
+    height:200px;
+  }
+  #surveyPic2{
+    width:370px;
+    height:200px;
+  }
+  #resourcePic1{
+    width:370px;
     height:200px;
   }
 }

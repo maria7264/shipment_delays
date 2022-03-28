@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=400px, initial-scale=1.0">
     <link rel = "icon" type = "png" href = "logo.png" />
     <title>Resources</title>
 </head>
@@ -60,8 +60,6 @@
   }
   
   
-
-
   footer{
       display:flow-root;
       justify-content: center;
@@ -85,10 +83,18 @@
         background-color: #85c6f5;
         
         }
-  
+        #resourcePic1{
+        width:750px;
+        height:350px;
+        }
 
-
-
+        @media screen and (max-width:400px) {
+        #resourcePic1 {
+        width:370px;
+        height:200px;
+        }
+      }
+    
 </style>
 
 
@@ -99,8 +105,8 @@
 
 
     <picture>
-      <source srcset="infopic.jpeg" media="(min-width:767px)"/>
-      <img src="infopic.jpeg" alt="Information banner" width = "750" height = "400">
+      <source srcset="infopic_optimized.jpeg" media="(min-max:400px)"/>
+      <img src="infopic.jpeg" alt="front" id = "resourcePic1"> 
     </picture>
     
     

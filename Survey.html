@@ -89,14 +89,20 @@
       <br> 
 
       <h3 class = "surveyText"> Survey Time </h3>
-      <img class="sImage" src="hyou.jpeg" alt="Survey Banner" width = "800" height = "400"> 
 
+
+      <picture>
+        <source srcset="hyou_optimized.jpg" media="(min-max:400px)"/>
+       
+        <img src="hyou.jpeg" alt="front" id = "surveyPic2"> 
+      
+      </picture>
       
 
 
       <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post"> 
        
-     <br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+        <br> <br> 
         <label style="font-size:20px; font-weight: bold;"> This survey will rate in a scale of 1 - 5. 
             <br> <br> 1 Strongly Disagree || 2 Disagree || 3 Neutral || 4 Agree || 5 Strongly Agree </label> 
         <br> 
