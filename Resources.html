@@ -5,72 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=400px, initial-scale=1.0">
     <link rel = "icon" type = "png" href = "logo.png" />
+    <link rel="stylesheet" href="style.css">
     <title>Resources</title>
 </head>
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Noto+Serif+Display:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Noto+Serif+Display:wght@600&display=swap');
-
-  body {
-    font-family: 'Cormorant Garamond', serif;
-  }
   h2 {
     color: rgb(0, 0, 0);
     font-size: 50px;
     margin-bottom: 2px;
   }
-  h3 {
-    font-size: 45px;
-  }
-  h4 {
-    font-size: 40px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  h5 {
-    font-size: 35px;
-  }
-  h6 {
-    font-size: 25px;
-  }
+ 
+ 
   p {
     font-size: 20px;
     margin-top: 2px;
   }
-  body{
-      background-color: #F8F4EE
-  }
 
 
-  body {
-    font-family: 'Cormorant Garamond', serif;
-  }
-  h1 {
-    color: #094067;
-    font-size: 60px;
-    font-weight: 700px;
-    margin-top: 10px;
-    margin-bottom: 3px;
-  }
-  ul {
+
+  .ulResouces {
     font-size: 20px;
     margin-top: 4px;
+    background-color: #F8F4EE;
+    list-style-type: disc;
+  
+    padding: none;
+    overflow: none;
 
   }
   
-  
-  footer{
-      display:flow-root;
-      justify-content: center;
-      padding: 5px;
-      background-color: #90b4ce;
-      color: #fff;
+  li a:hover {
+    background-color: #F8F4EE;
   }
-  a:link{
-    color: #094067;
+
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 8px;
+    
+    list-style-type: disc;
     text-decoration: none;
+    font-size: 25px;
+
   }
+
+  ul {
+    list-style-type: none;
+    margin-left: none;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #F8F4EE;
+  }
+  
+
+
   a:hover{
         text-decoration: underline;
         }
@@ -81,89 +71,86 @@
         }
         input[ type = submit]:active {
         background-color: #85c6f5;
-        
         }
-        #resourcePic1{
-        width:750px;
-        height:350px;
-        }
+    a:link{
+    color: #094067;
+    text-decoration: none;
 
-        @media screen and (max-width:400px) {
-        #resourcePic1 {
-        width:370px;
-        height:200px;
-        }
-      }
+  }
+      
     
 </style>
 
 
 <body>
+  <div class = "mainDiv">
+   
+   
+
+      <h1> <strong>Shipment Delays Causes <a href="index.html" target="_parent"><img  src="logo.png" alt = "Company Logo" width = "90px" height = "90px" align= "left"    ></a> </strong></h1>
+      
+      <iframe frameborder="0" src="navigation.html" width = "100%" height = "80"></iframe>
+      <h2 style ="margin-bottom:4px; margin-top:2px;"> Resources</h2>
     
 
-    <h1> <strong>Shipment Delays Causes <a href="index.html" target="_parent"><img  src="logo.png" alt = "Company Logo" width = "90px" height = "90px" align= "left"    ></a> </strong></h1>
-    
-    <iframe frameborder="0" src="navigation.html" width = "100%" height = "80"></iframe>
-    <h2 style ="margin-bottom:4px; margin-top:2px;"> Resources</h2>
+      <picture>
+        <source srcset="infopic_optimized.jpeg" media="(min-max:400px)"/>
+        <img src="infopic.jpeg" alt="front" id = "resourcePic1"> 
+      </picture>
+      
+      
 
 
-    <picture>
-      <source srcset="infopic_optimized.jpeg" media="(min-max:400px)"/>
-      <img src="infopic.jpeg" alt="front" id = "resourcePic1"> 
-    </picture>
-    
-    
+      <p> Here you will find external resources to do reseach on your own. </p>
+
+      <h4>Text References</h4>
+      <ul class ="ulResouces">
+          <li><a href="https://www.pwc.com/gr/en/industries/shipping-covid-19.html">Shipping industry responding to the COVID-19 </a></li>
+          <li><a href="https://unctad.org/news/shipping-during-covid-19-why-container-freight-rates-have-surged">Shipping during COVID-19: Why container freight rates have surged </a></li>
+          <li><a href="https://www.agcs.allianz.com/news-and-insights/expert-risk-articles/shipping-safety-21-covid.html">Safety and Shipping Review 2021:
+              The Covid factors</a></li>
+      </ul>
 
 
-    <p> Here you will find external resources to do reseach on your own. </p>
+      <h4>Image References</h4>
+      <ul>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Ever_Given_in_Suez_Canal_viewed_from_ISS.jpg">Canal Suez 2021 </a></li> 
+          <li><a href="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80">Cargo 2020 </a></li>
+          <li><a href="https://images.unsplash.com/photo-1597139416651-bf9a3b3e9014?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2044&q=80">Cargo 2021 </a></li>
+          
+      </ul>
 
-    <h4>Text References</h4>
-    <ul>
-        <li><a href="https://www.pwc.com/gr/en/industries/shipping-covid-19.html">Shipping industry responding to the COVID-19 </a></li>
-        <li><a href="https://unctad.org/news/shipping-during-covid-19-why-container-freight-rates-have-surged">Shipping during COVID-19: Why container freight rates have surged </a></li>
-        <li><a href="https://www.agcs.allianz.com/news-and-insights/expert-risk-articles/shipping-safety-21-covid.html">Safety and Shipping Review 2021:
-            The Covid factors</a></li>
-    </ul>
+      <h4>Video References</h4>
+      <ul>
+          <li><a href="https://www.youtube.com/watch?v=nBQ3lOkaAI8"> Nicole DeHoratius: How will COVID-19 change the supply chain? </a></li> 
+          <li><a href="https://www.youtube.com/watch?v=E7t5yj1rScI">What’s Causing The Container Ship Traffic Jam Clogging Up Global Trade </a></li>
+          
+          
+      </ul>
 
+      <br> <br> 
+      <hr>
+      <footer>
+        <p style = "margin-bottom:3px; color:#094067; font-weight: bold;" > || Maria Yagual ||  <a  href="mailto:myagual@brooklynsteamcenter.org">myagual@brooklynsteamcenter.org || </a> </p>
+            <br> 
+        <h6 style="margin-bottom: 2px; margin-top: 3px; font-weight: lighter; "> Monthly Newsletter Sign Up </h6> 
+            <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post"> 
+              <label>Email: </label>
+              <br>
+              <input name ="Email"> 
+              <br>    
+      
+              <label>Name: </label>
+              <br>
+              <input name ="Name"> 
+              <br>    
+              <input type="submit" style="height:30px; width:60px; font-size:16px; font-family:'Cormorant Garamond', serif ;" >
+              <input name="send-to" value="myagual@brooklynsteamcenter.org" hidden>
+              <br> <br> 
+      
+            </form>
 
-    <h4>Image References</h4>
-    <ul>
-        <li><a href="https://commons.wikimedia.org/wiki/File:Ever_Given_in_Suez_Canal_viewed_from_ISS.jpg">Canal Suez 2021 </a></li> 
-        <li><a href="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80">Cargo 2020 </a></li>
-        <li><a href="https://images.unsplash.com/photo-1597139416651-bf9a3b3e9014?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2044&q=80">Cargo 2021 </a></li>
-        
-    </ul>
-
-    <h4>Video References</h4>
-    <ul>
-        <li><a href="https://www.youtube.com/watch?v=nBQ3lOkaAI8"> Nicole DeHoratius: How will COVID-19 change the supply chain? </a></li> 
-        <li><a href="https://www.youtube.com/watch?v=E7t5yj1rScI">What’s Causing The Container Ship Traffic Jam Clogging Up Global Trade </a></li>
-        
-        
-    </ul>
-
-    <br> <br> 
-    <hr>
-    <footer>
-      <p style = "margin-bottom:3px; color:#094067; font-weight: bold;" > || Maria Yagual ||  <a  href="mailto:myagual@brooklynsteamcenter.org">myagual@brooklynsteamcenter.org || </a> </p>
-          <br> 
-      <h6 style="margin-bottom: 2px; margin-top: 3px; font-weight: lighter; "> Monthly Newsletter Sign Up </h6> 
-          <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post"> 
-            <label>Email: </label>
-            <br>
-            <input name ="Email"> 
-            <br>    
-    
-            <label>Name: </label>
-            <br>
-            <input name ="Name"> 
-            <br>    
-            <input type="submit" style="height:30px; width:60px; font-size:16px; font-family:'Cormorant Garamond', serif ;" >
-            <input name="send-to" value="myagual@brooklynsteamcenter.org" hidden>
-            <br> <br> 
-    
-          </form>
-
-    </footer>
+      </footer>
+</div>
  </body>
 </html>

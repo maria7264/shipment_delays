@@ -81,7 +81,7 @@
       justify-content: center;
       padding: 5px;
       background-color: #90b4ce;
-      color: #fff;
+      color: #ffffff;
   }
   a:link{
     color: #094067;
@@ -133,6 +133,12 @@ input[ type = submit]:active {
   font-family: 'Times New Roman', Times, serif;
   font-size: 55px;
   font-weight:549;
+}
+
+.mainDiv{  
+  width:800px;
+  margin:auto;
+
 }
 
 #sizePic{
